@@ -36,7 +36,7 @@ const Features = () => {
                 </div>
             </div>
             <div className='mx-auto space-y-10 mt-10 md:mt-0'>
-                <p className={`${mode ? "text-slate-100" : "text-slate-900"} text-4xl max-w-xs text-center font-bold`}>
+                <p className={`${mode ? "text-slate-900" : "text-slate-100"} text-4xl max-w-xs text-center font-bold`}>
                     Why 500+ million users love AnyDesk
                 </p>
                 <div className="flex justify-center">

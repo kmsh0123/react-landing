@@ -10,7 +10,7 @@ const Platform = () => {
     <>
         <div className="container mx-auto">
             <div className="flex justify-center">
-            <h1 className={`${mode ? "text-slate-100" : "text-slate-900"} md:text-4xl text-3xl max-w-sm md:max-w-md text-center font-bold`}>Every operating system, every device</h1>
+            <h1 className={`${mode ? "text-slate-900" : "text-slate-100"} md:text-4xl text-3xl max-w-sm md:max-w-md text-center font-bold`}>Every operating system, every device</h1>
             </div>
             <p className='text-center font-bold font-sans text-slate-500 mt-3 mb-10'>Vanilla runs native clients on all major platforms.</p>
             <div className="">

@@ -6,7 +6,7 @@ const Client = () => {
 
   return (
     <>
-        <h1 className={`${mode ? "text-slate-100" : "text-slate-900"} text-3xl md:text-4xl font-bold py-36 text-center`}>Vanilla fits your needs</h1>
+        <h1 className={`${mode ? "text-slate-900" : "text-slate-100"} text-3xl md:text-4xl font-bold py-36 text-center`}>Vanilla fits your needs</h1>
         <div className="container flex flex-col md:flex-row md:justify-evenly space-y-7 md:space-y-0 mx-auto">
         
             <div className="text-center space-y-7 md:space-y-10 border border-transparent hover:border-green-500 max-w-xs xl:max-w-md mx-auto p-5 rounded-3xl duration-300 cursor-pointer">
@@ -16,7 +16,7 @@ const Client = () => {
                         <path d="M60.5 21.5563V12.8333H74.25V35.3063" stroke="#61C454" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"></path>
                         <path d="M58.41 43.4317C57.7594 42.7489 56.9769 42.2053 56.1099 41.8339C55.243 41.4625 54.3097 41.271 53.3665 41.271C52.4234 41.271 51.49 41.4625 50.6231 41.8339C49.7561 42.2053 48.9736 42.7489 48.323 43.4317L44 47.9013L39.677 43.4317C39.0264 42.7489 38.2439 42.2053 37.3769 41.8339C36.51 41.4625 35.5767 41.271 34.6335 41.271C33.6904 41.271 32.757 41.4625 31.8901 41.8339C31.0231 42.2053 30.2406 42.7489 29.59 43.4317C28.2485 44.8368 27.5 46.7048 27.5 48.6475C27.5 50.5902 28.2485 52.4582 29.59 53.8633L42.4637 67.177C42.6619 67.3849 42.9003 67.5504 43.1644 67.6634C43.4285 67.7765 43.7127 67.8348 44 67.8348C44.2873 67.8348 44.5715 67.7765 44.8356 67.6634C45.0997 67.5504 45.3381 67.3849 45.5363 67.177L58.41 53.8633C59.7515 52.4582 60.5 50.5902 60.5 48.6475C60.5 46.7048 59.7515 44.8368 58.41 43.4317V43.4317Z" stroke="#61C454" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"></path>
                </svg>
-            <h1 className={`${mode ? "text-slate-100" : "text-slate-900"} text-4xl text-center max-w-sm`}>Runs in Cloud or On-Premises</h1>
+            <h1 className={`${mode ? "text-slate-900" : "text-slate-100"} text-4xl text-center max-w-sm`}>Runs in Cloud or On-Premises</h1>
             <p className='max-w-xs mx-auto font-bold text-slate-500'>Minimum latency viaour own DeskRT codec, Frame rates of 60 fps.</p>
                 <div className="mt-5 ">
                     <a href="#" className='underline text-green-500 font-bold'>Learn More</a>
@@ -38,7 +38,7 @@ const Client = () => {
                         </clipPath>
                         </defs>
             </svg>
-            <h1 className={`${mode ? "text-slate-100" : "text-slate-900"} text-4xl text-center max-w-sm`}>Full mobile support</h1>
+            <h1 className={`${mode ? "text-slate-900" : "text-slate-100"} text-4xl text-center max-w-sm`}>Full mobile support</h1>
             <p className='max-w-xs mx-auto font-bold text-slate-500'>Minimum latency viaour own DeskRT codec, Frame rates of 60 fps.</p>
                 <div className="mt-5 ">
                     <a href="#" className='underline text-green-500 font-bold'>Learn More</a>
@@ -51,7 +51,7 @@ const Client = () => {
                         <path d="M60.8667 45.0671L83.7137 14.8061C84.3279 13.9753 84.7633 13.0262 84.9921 12.0187C85.221 11.0112 85.2385 9.96721 85.0434 8.95261C84.8484 7.93801 84.4451 6.97488 83.859 6.12405C83.2728 5.27322 82.5167 4.55317 81.6382 4.00939C80.7597 3.4656 79.778 3.1099 78.755 2.96474C77.7321 2.81959 76.6902 2.88813 75.6951 3.16604C74.7 3.44396 73.7733 3.9252 72.9736 4.57938C72.1739 5.23356 71.5186 6.04647 71.049 6.96675L54.439 40.3921" stroke="#61C454" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"></path>
                         <path d="M27.709 62.59C8.27568 57.6657 15.895 47.498 7.33334 47.498C-3.79866 47.498 7.01068 73.0474 25.2707 82.533C30.3226 84.8973 35.9767 85.6603 41.4746 84.7199C46.9725 83.7794 52.0515 81.1804 56.0303 77.2714L56.3273 76.9707" stroke="#61C454" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"></path>
             </svg>
-            <h1 className={`${mode ? "text-slate-100" : "text-slate-900"} text-4xl text-center max-w-sm`}>Flexibility & customization</h1>
+            <h1 className={`${mode ? "text-slate-900" : "text-slate-100"} text-4xl text-center max-w-sm`}>Flexibility & customization</h1>
             <p className='max-w-xs mx-auto font-bold text-slate-500'>Minimum latency viaour own DeskRT codec, Frame rates of 60 fps.</p>
                 <div className="mt-5 ">
                     <a href="#" className='underline text-green-500 font-bold'>Learn More</a>

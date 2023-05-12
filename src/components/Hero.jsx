@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       {/* Hero */}
         <div className="container mx-auto text-center py-40">
-            <h1 className={`text-8xl flex flex-col md:flex-row md:justify-center font-["Euclid-Circular-A"] ${mode ? "text-slate-100" : "text-slate-900"}`}>Access.<span className='text-8xl font-[Euclid-Circular-A]' style={{color : "#22c55e"}}>Now.</span></h1>
+            <h1 className={`text-8xl flex flex-col md:flex-row md:justify-center font-["Euclid-Circular-A"] ${mode ? "text-slate-900" : "text-slate-100"}`}>Access.<span className='text-8xl font-[Euclid-Circular-A]' style={{color : "#22c55e"}}>Now.</span></h1>
             <p className='font-[Euclid-Circular-A] text-slate-500 max-w-xs md:max-w-none mx-auto'>Access any device at any time. From anywhere. Always secure and fast.</p>
             <div className="mt-10 md:gap-3 flex flex-col md:flex-row md:justify-center space-y-5 md:space-y-0">
                 <button className='bg-[#22c55e] flex items-center gap-2 text-white p-5 px-[3.5rem] mx-auto md:mx-0 rounded-full'>

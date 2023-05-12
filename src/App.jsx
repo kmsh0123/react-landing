@@ -23,8 +23,8 @@ const [open,setOpen] = useState(false);
   const dispatch = useDispatch();
 
   return (
-    <div className={mode ? "bg-slate-900" : "bg-white"}>       
-      <div className={`${mode ? "bg-slate-900" : "bg-white"} p-3 fixed top-0 left-0 right-0 shadow-lg`}>
+    <div className={mode ? "bg-white" : "bg-slate-900"}>       
+      <div className={`${mode ? "bg-white" : "bg-slate-900"} p-3 fixed top-0 left-0 right-0 shadow-lg`}>
     <div className="md:flex md:justify-around container mx-auto lg:justify-between md:items-center p-0 rounded-lg">
         <h1 className='text-2xl font-bold flex items-center gap-1 md:shadow-none p-1 md:p-0'>
         <svg width="162" height="47" viewBox="0 0 162 47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@ const [open,setOpen] = useState(false);
         {
             menuLinks.map(menu => {
                 return (
-                <li className={`${mode ? "text-slate-200" : "md:text-slate-900" }`} key={menu.name}>{menu.name}</li>
+                <li className={`${mode ? "md:text-slate-900" : "text-slate-200" }`} key={menu.name}>{menu.name}</li>
                 )
             })
         }
@@ -50,7 +50,7 @@ const [open,setOpen] = useState(false);
           <div className='absolute top-[25px] md:top-[20px] right-[80px] md:right-[60px] md:static'>
           <label htmlFor="toggleB" className="flex items-center cursor-pointer">
           <div className="relative">
-            <input onClick={()=>dispatch(toggleDarkMode())} type="checkbox" id="toggleB" defaultChecked={mode} className="sr-only"/>
+            <input onClick={()=>dispatch(toggleDarkMode())} type="checkbox" id="toggleB" defaultChecked={!mode} className="sr-only"/>
             <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
             <div className="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
           </div>
